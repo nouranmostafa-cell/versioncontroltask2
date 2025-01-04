@@ -12,6 +12,8 @@ git push origin --delete <branch_name>
 
 ----------------------------------------------------
 
+![GIT TAGS](https://github.com/username/repository-name/blob/main/assets/screenshot.png](https://miro.medium.com/v2/resize:fit:638/1*CW-G-2zVFpEfEZNOTBvT0g.jpeg)
+
 ## Annotated Tags vs Lightweight Tags
 
 Git provides two types of tags: **Annotated Tags** and **Lightweight Tags**. Here’s a detailed comparison:
@@ -75,9 +77,6 @@ git tag -d <tag_name>
 ####delete the tag from Remotely:
 bash
 git push origin --delete <tag_name>
-
-![GIT TAGS](https://github.com/username/repository-name/blob/main/assets/screenshot.png](https://miro.medium.com/v2/resize:fit:638/1*CW-G-2zVFpEfEZNOTBvT0g.jpeg)
-
 
 ---------------------------------------------------
 
