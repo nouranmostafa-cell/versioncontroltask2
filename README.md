@@ -76,6 +76,8 @@ git tag -d <tag_name>
 bash
 git push origin --delete <tag_name>
 
+![GIT TAGS](https://github.com/username/repository-name/blob/main/assets/screenshot.png](https://miro.medium.com/v2/resize:fit:638/1*CW-G-2zVFpEfEZNOTBvT0g.jpeg)
+
 
 ---------------------------------------------------
 
@@ -84,22 +86,21 @@ git push origin --delete <tag_name>
 ### **What is Rebase?**
 Rebasing in Git is a process of moving or combining a sequence of commits to a new base commit. It helps maintain a cleaner and more linear commit history by avoiding unnecessary merge commits.
 
----
-
+--
 ### **Reasons to Use Rebase**
 
-#### **1. Keep a Linear Commit History**
+### **1. Keep a Linear Commit History**
 - Rebase is ideal for keeping your commit history clean and linear, especially in large projects.
 - Instead of having multiple merge commits cluttering the history, rebasing re-applies commits directly on top of the base branch.
 
-#### **2. Update a Feature Branch**
+### **2. Update a Feature Branch**
 - Use rebase to update your feature branch with the latest changes from the `main` branch without creating a merge commit.
 - Example:
   ```bash
   git checkout feature-branch
   git rebase main
 
-#### **3. Squash Commits**
+### **3. Squash Commits**
 - Combine multiple small commits into a single commit for better clarity.
 - This is especially useful for cleaning up work-in-progress commits before sharing your branch.
 - Example:
