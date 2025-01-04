@@ -12,7 +12,7 @@ git push origin --delete <branch_name>
 
 ----------------------------------------------------
 
-![GIT TAGS]([https://miro.medium.com/v2/resize:fit:638/1*CW-G-2zVFpEfEZNOTBvT0g.jpeg])
+![GIT TAGS](https://miro.medium.com/v2/resize:fit:638/1*CW-G-2zVFpEfEZNOTBvT0g.jpeg)
 
 ## Annotated Tags vs Lightweight Tags
 
